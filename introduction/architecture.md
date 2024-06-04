@@ -1,8 +1,3 @@
----
-sidebar_position: 2
-description: "Relyt 的架构及其核心特征"
----
-
 # 产品架构
 
 ![](..\images\introduction\architecture.png)
