@@ -1,7 +1,3 @@
----
-sidebar_position: 1
-description: "本文介绍了 SQL 计划管理是什么以及如何使用该特性"
----
 # SQL 计划管理
 
 本文解释了什么是 SQL 计划管理，并描述了如何使用此功能。

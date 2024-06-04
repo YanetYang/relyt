@@ -1,8 +1,3 @@
----
-sidebar_position: 3
-description: "单查询成功率不低于 99.9%"
----
-
 # 自适应查询扩展 AQS
 
 AQS（自适应查询扩展，Adaptive Query Scaling）是 Relyt 提供的一项高级功能，旨在确保你的 DPS 集群在处理大查询、复杂查询期间的稳定性和高性能，提供了至少三个 9 的查询成功率。

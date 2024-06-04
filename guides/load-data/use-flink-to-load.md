@@ -1,8 +1,3 @@
----
-sidebar: 1
-description: "通过 Flink 导入数据至 Relyt 的最佳实践"
----
-
 # 通过 Flink 导入数据至 Relyt
 
 本文展示了如何通过 Flink 将数据加载到 Relyt。
@@ -14,7 +9,7 @@ description: "通过 Flink 导入数据至 Relyt 的最佳实践"
 ### 1.1 下载依赖包、工具包
 
 1. 下载下述依赖包：
-    
+   
     Hadoop 依赖包：[https://archive.apache.org/dist/hadoop/common/hadoop-3.1.1/hadoop-3.1.1.tar.gz](https://archive.apache.org/dist/hadoop/common/hadoop-3.1.1/hadoop-3.1.1.tar.gz)
 
     Flink 依赖包：[https://archive.apache.org/dist/flink/flink-1.14.5/flink-1.14.5-bin-scala\_2.12.tgz](https://archive.apache.org/dist/flink/flink-1.14.5/flink-1.14.5-bin-scala_2.12.tgz)
@@ -249,16 +244,16 @@ SELECT * FROM relyt_get_async_load_job() WHERE target::regclass = 'relyt_destina
 可能的返回值包括：
 
 - `INIT`：初始化中，数据正在写入临时存储目录中。
-    
+  
 - `READY`：可执行，数据已写入至临时存储目录中。
-    
+  
 - `LOADING`：数据导入中，数据正在从临时存储目录中导入至 Relyt。
-    
+  
 - `FINISH`：任务已完成。
-    
+  
 - `FAIL`：任务失败。
-    
+  
 - `CANCEL`：任务已取消。
-    
+  
 
 当返回值为 `FINISH` 时，导入任务已成功完成。

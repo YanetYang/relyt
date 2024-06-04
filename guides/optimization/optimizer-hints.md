@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-description: "本文介绍了 Relyt 支持的优化器提示及使用方法"
----
-
 # 优化器提示
 
 本文介绍了 Relyt 支持的优化器提示及使用方法。

@@ -1,8 +1,3 @@
----
-sidebar_position: 2
-description: "DPS 集群的创建、删除、启停、变配等操作指南"
----
-
 
 # 管理 DPS 集群
 

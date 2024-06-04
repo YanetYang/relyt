@@ -1,9 +1,4 @@
----
-sidebar_position: 3
-description: "数仓用户, Relyt 数仓服务单元中的用户"
----
-
-# 数仓用户简介
+# 数仓用户
 
 数仓用户是在数仓服务单元中操作和使用数据库对象的实体。他们可以在特定的服务单元中创建、管理和使用数据库对象。在 Relyt 中，数仓用户只能由账号扮演或通过邀请创建。这种设计不仅便于使用数仓服务单元，还实现了数仓服务单元之间的有效资源隔离，从而确保你的数据安全，同时又不影响其简洁性。
 
@@ -60,7 +55,6 @@ description: "数仓用户, Relyt 数仓服务单元中的用户"
 :::
 
 关于对象权限的详细信息，请参考 [对象权限](guides/security/object-privileges.md)。关于权限授予和撤回的 SQL 操作，请参考 [GRANT](reference/sql-commands/grant.md) 和 [REVOKE](reference/sql-commands/revoke.md)。
-
 
 
 
