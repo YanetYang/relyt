@@ -1,8 +1,3 @@
----
-sidebar_position: 4
-description: "创建、删除数仓用户，修改用户密码"
----
-
 
 # 管理数仓用户
 

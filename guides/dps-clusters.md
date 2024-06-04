@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-description: "DPS 集群是什么、有哪些种类、和 DPS 有什么关系"
----
-
 # DPS 集群
 
 ## 什么是 DPS？
