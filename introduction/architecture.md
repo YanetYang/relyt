@@ -1,6 +1,6 @@
 # 产品架构
 
-![](..\images\introduction\architecture.png)
+![](/images/introduction/architecture.png)
 
 
 Relyt 的核心概念和产品特征对应上图自下而上分层：
