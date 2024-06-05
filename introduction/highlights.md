@@ -4,14 +4,14 @@ Relyt 从第一天起就完全基于公有云，天生就拥有了存储和计�
 
 Relyt 的优势当然不止于此。从未停止过技术创新与探索的 Relyt，在架构、引擎、安全、生态等方面持续迭代与演进。
 
-![](..\images\introduction\highlights-overview.png)
+![](/images/introduction/highlights-overview.png)
 
 
 ## 架构的先进性
 
 Relyt 采用存算分离的架构，实现了计算、元数据、存储的完全解耦，计算资源、存储资源与元数据池化管理，计算完全无状态，让 Relyt 在极致弹性、极致性价比、极致可靠性的基础上再迈进一步，实现极高的资源利用率和高性价比的极致混合负载，总体达到 10 倍 TCO 的节省。
 
-![](..\images\introduction\highlights-architecture.png)
+![](/images/introduction/highlights-architecture.png)
 
 
 ### 低成本
@@ -20,7 +20,7 @@ Relyt 采用存算分离的架构，实现了计算、元数据、存储的完�
 
 Relyt 在架构上实现了存储与计算的完全解耦，使得存储资源和计算资源可以分别按需进行扩缩。底层存储采用性价比极佳的云数据存储，在保证成本优势的同时，保证了近乎无限的扩展能力。上层计算资源集群（即 DPS 集群）支持按需部署、按需启停、按需变配，按需付费。DPS 集群提供的性能随着 DPS 集群的计算资源增加而线性增加，具有良好的性能可预测性。在实际使用中，用户只需根据工作负载大小部署相应规格的 DPS 集群，而无需担心底层存储容量。
 
-![](..\images\introduction\highlights-costs.png)
+![](/images/introduction/highlights-costs.png)
 
 此外，您可以手动暂停空闲 DPS 集群或通过策略实现空闲 DPS 集群自动暂停。暂停中的 DPS 集群不会产生费用。当接收到新的查询后，暂停中的 DPS 集群可以在毫秒级恢复响应，从而在保证了查询处理性能的同时实现了成本最小化。
 
@@ -33,7 +33,7 @@ Relyt 通过不断的产品创新，开发出了在数据操作的算子级别�
 
 到目前为止，Relyt 已经使用 TPC-H 完成了一系列算子性能相关的测试，Relyt 算子在与 Trino 和 Spark 的对比方面具有明显优势，许多 Relyt 算子在性能上足以媲美 ClickHouse 的同类服务，甚至更为优秀。除 SQL 算子外，Relyt 在考虑计算特征的同时，还不断对其他类型的算子进行性能优化，包括数据加解密、压缩和解压缩。这些技术的采用使得 Relyt 能够以极低的单位价格提供先进且全面的数据处理功能，总拥有成本 (TCO) 仅为其他主流数据平台的 10% 甚至更低。
 
-![](..\images\introduction\highlights-optimization.png)
+![](/images/introduction/highlights-optimization.png)
 
 
 **工作负载隔离与并行支持**
@@ -50,7 +50,7 @@ Relyt 的 DPS 集群在设计上就直接保证了隔离性：Relyt 支持在多
 
 ### 跑不死
 
-![](..\images\introduction\highlights-success.png)
+![](/images/introduction/highlights-success.png)
 
 **灵活的弹性计算**
 
@@ -65,7 +65,7 @@ DPS 集群不仅支持按需部署、按需变配、自动启停，赋予了 Rel
 
 ## 领先的引擎
 
-![](..\images\introduction\highlights-engine.png)
+![](/images/introduction/highlights-engine.png)
 
 
 ### 向量化引擎
@@ -87,7 +87,7 @@ Relyt 内部通过使用一个基于代价的优化器 (Cost-Based Optimizer, CB
 
 ## 数据安全
 
-![](..\images\introduction\highlights-security.png)
+![](/images/introduction/highlights-security.png)
 
 Relyt 采用多种技术来确保用户数据的安全性以及合规性：
 
@@ -99,7 +99,7 @@ Relyt 采用多种技术来确保用户数据的安全性以及合规性：
 
 **应用访问认证 Token**：数据仓库的用户可以为不同渠道的应用配置不同的应用访问认证 Token，避免数据库账号“满天飞”，不同认证 Token 渠道的连接监控，也给业务的运维、管理或者下线操作更强的安全保障。
 
-![](..\images\introduction\highlights-token.png)
+![](/images/introduction/highlights-token.png)
 
 凭借这些企业级安全保障和合规性，企业可以放心使用 Relyt。
 
